@@ -5,7 +5,6 @@ from hangman_words import word_list
 from hangman_art import stages
 from hangman_art import logo
 from replit import clear
-#TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 print(logo)
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
